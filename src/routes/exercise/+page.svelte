@@ -46,7 +46,7 @@
 		<p class="msg">내쉬기</p>
 	{/if}
 	<a
-		class="link-button"
+		class="link-button mt-10"
 		href="/"
 		on:click={() => {
 			clearInterval(timer);

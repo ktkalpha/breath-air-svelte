@@ -3,24 +3,30 @@
 @tailwind utilities;
 
 body {
-	@apply bg-zinc-700;
+	@apply bg-zinc-800;
 }
 
 .button {
-	@apply text-2xl p-5 text-white;
+	@apply text-4xl p-5 text-white;
 }
 .link-button {
-	@apply text-2xl text-center bg-green-500  pl-20 pr-20 rounded-lg text-white;
+	@apply text-4xl text-center bg-green-500 p-5 pl-10 pr-10 rounded-lg text-white;
 }
 .label-counter {
-	@apply text-2xl text-center text-white;
+	@apply text-4xl text-center text-white;
 }
 .card {
-	@apply border-zinc-800 rounded-lg border pl-10 pr-10;
+	@apply bg-zinc-900 rounded-lg p-20 w-full;
 }
 .time-ind {
 	@apply text-white text-[10rem] text-center;
 }
 .msg {
 	@apply text-center text-white text-[3rem];
+}
+.counter {
+	@apply text-white text-[8rem];
+}
+.splitter {
+	@apply w-full mb-5 border-zinc-600 border;
 }

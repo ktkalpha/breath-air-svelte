@@ -8,7 +8,14 @@
 		<div class="flex flex-row">
 			<button class="button mr-3" on:click={() => $inhale++}>+</button>
 			<p class="text-white text-[6rem]">{$inhale}</p>
-			<button class="button ml-3" on:click={() => $inhale--}>-</button>
+			<button
+				class="button ml-3"
+				on:click={() => {
+					if ($inhale > 0) {
+						$inhale--;
+					}
+				}}>-</button
+			>
 		</div>
 	</div>
 	<a class="link-button" href="/exercise">시작</a>
@@ -17,7 +24,14 @@
 		<div class="flex flex-row">
 			<button class="button mr-3" on:click={() => $exhale++}>+</button>
 			<p class="text-white text-[6rem]">{$exhale}</p>
-			<button class="button ml-3" on:click={() => $exhale--}>-</button>
+			<button
+				class="button ml-3"
+				on:click={() => {
+					if ($exhale > 0) {
+						$exhale--;
+					}
+				}}>-</button
+			>
 		</div>
 	</div>
 </main>

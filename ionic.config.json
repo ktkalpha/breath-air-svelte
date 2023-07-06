@@ -1,0 +1,7 @@
+{
+  "name": "breath-air-svelte",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "custom"
+}
